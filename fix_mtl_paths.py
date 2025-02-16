@@ -46,7 +46,7 @@ def fix_mtl_file(mtl_path):
     return modified
 
 def main():
-    base_path = "/home/data3t/aieson/WCS_DATAS/Datasets"
+    base_path = "/path/to/Datasets"
     modified_objects = []
     
     # Process all objects from 1 to 1000

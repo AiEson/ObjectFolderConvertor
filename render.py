@@ -240,8 +240,8 @@ def get_object_folder_path(obj_id):
     return base_dir
 
 def main():
-    base_input_path = "/home/data3t/aieson/WCS_DATAS/Datasets"
-    base_output_path = "/home/data3t/aieson/WCS_DATAS/Datasets/ObjectFolderResults"
+    base_input_path = "/path/to/Datasets"
+    base_output_path = "/path/to/Datasets/ObjectFolderResults"
     
     # Create output directory if it doesn't exist
     os.makedirs(base_output_path, exist_ok=True)

@@ -3,8 +3,8 @@ import shutil
 from render import ObjectRenderer, get_object_folder_path
 
 def main():
-    base_input_path = "/home/data3t/aieson/WCS_DATAS/Datasets"
-    base_output_path = "/home/data3t/aieson/WCS_DATAS/Datasets/ObjectFolderResults"
+    base_input_path = "/path/to/Datasets"
+    base_output_path = "/path/to/Datasets/ObjectFolderResults"
     
     # Read list of modified objects
     try:
